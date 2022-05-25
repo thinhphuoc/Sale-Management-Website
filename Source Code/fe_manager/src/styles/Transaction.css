@@ -1,0 +1,22 @@
+@import './Constants.css';
+
+.Transaction-table-container {
+}
+
+.Transaction-table {
+    margin: 0 auto;
+    position: relative;
+    left:50%;
+    top: 20px;
+    transform: translate(-50%);
+}
+
+.Transaction-row {
+	background: red;
+	margin-top: 100px;
+}
+
+.tableHeader {
+	font-weight: bold;
+	font-size: larger;
+}

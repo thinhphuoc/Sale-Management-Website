@@ -1,0 +1,43 @@
+@import "./Constants.css";
+
+.table {
+  /* margin: 80px 50px 50px 50px; */
+  background: white;
+  box-shadow: 2px 2px 5px gray;
+  position: relative;
+  margin-top: 10%;
+  left: 40%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.qrBox {
+  width: 350px;
+  height: 350px;
+  background: #e9f2f9;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px gray;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.tableHeader {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.sellButton {
+  width: 50%;
+  box-shadow: 3px 3px 5px gray;
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
